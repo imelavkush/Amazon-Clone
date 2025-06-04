@@ -123,14 +123,14 @@ span {
 
 /* Hero Section */
 .hero-section {
-  background-image: url("hero_image.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 250px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 250px;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
 }
+
 .hero-msg {
   background-color: white;
   color: black;
@@ -290,5 +290,10 @@ footer {
   .nav-logo,
   .logo {
     width: 120px;
+  }
+}
+@media (max-width: 600px) {
+  .hero-section {
+    min-height: 180px;
   }
 }
